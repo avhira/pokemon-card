@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+#show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-top: 30px;
+}
+#box {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+img {
+  width: 130px;
+}
+.grass {
+  background: #8dd694;
+  border: 3px solid#5dad65;
+}
+.fire {
+  background: #e69d8d;
+  border: 3px solid #c67d6d;
+}
+.water {
+  background: #8dc6e6;
+  border: 3px solid #6f9eca;
+}
+.bug {
+  background: #bddd7a;
+  border: 3px solid #a2c170;
+}
+.normal {
+  background: #b1b1b1;
+  border: 3px solid#959595;
+}
+.poison {
+  background: #a55db1;
+  border: 3px solid #ba4a95;
+}
+.electric {
+  background: #e7cb59;
+  border: 3px solid #d0b34a;
+}
+.ground {
+  background: #efbeb5;
+  border: 3px solid #d0a068;
+}
+.fairy {
+  background: #eea1e2;
+  border: 3px solid #c77fbc;
+}
